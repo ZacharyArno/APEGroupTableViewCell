@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B675F89F1CB235FC00C30678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B675F89E1CB235FC00C30678 /* main.m */; };
+		B675F8A21CB235FC00C30678 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B675F8A11CB235FC00C30678 /* AppDelegate.m */; };
+		B675F8AA1CB235FC00C30678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B675F8A91CB235FC00C30678 /* Assets.xcassets */; };
+		B675F8AD1CB235FC00C30678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B675F8AB1CB235FC00C30678 /* LaunchScreen.storyboard */; };
+		B675F8B81CB235FD00C30678 /* APEGroupTableVIewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B675F8B71CB235FD00C30678 /* APEGroupTableVIewCellTests.m */; };
+		B675F8C31CB235FD00C30678 /* APEGroupTableVIewCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B675F8C21CB235FD00C30678 /* APEGroupTableVIewCellUITests.m */; };
+		B675F8D51CB2363400C30678 /* APEGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B675F8D31CB2363400C30678 /* APEGroupTableViewCell.m */; };
+		B675F8D81CB2363D00C30678 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B675F8D71CB2363D00C30678 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B675F8B41CB235FD00C30678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B675F8921CB235FC00C30678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B675F8991CB235FC00C30678;
+			remoteInfo = APEGroupTableVIewCell;
+		};
+		B675F8BF1CB235FD00C30678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B675F8921CB235FC00C30678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B675F8991CB235FC00C30678;
+			remoteInfo = APEGroupTableVIewCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B675F89A1CB235FC00C30678 /* APEGroupTableVIewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APEGroupTableVIewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B675F89E1CB235FC00C30678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B675F8A01CB235FC00C30678 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B675F8A11CB235FC00C30678 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B675F8A91CB235FC00C30678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B675F8AC1CB235FC00C30678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B675F8AE1CB235FC00C30678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B675F8B31CB235FD00C30678 /* APEGroupTableVIewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APEGroupTableVIewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B675F8B71CB235FD00C30678 /* APEGroupTableVIewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEGroupTableVIewCellTests.m; sourceTree = "<group>"; };
+		B675F8B91CB235FD00C30678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B675F8BE1CB235FD00C30678 /* APEGroupTableVIewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APEGroupTableVIewCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B675F8C21CB235FD00C30678 /* APEGroupTableVIewCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEGroupTableVIewCellUITests.m; sourceTree = "<group>"; };
+		B675F8C41CB235FD00C30678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B675F8D21CB2363400C30678 /* APEGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEGroupTableViewCell.h; sourceTree = "<group>"; };
+		B675F8D31CB2363400C30678 /* APEGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEGroupTableViewCell.m; sourceTree = "<group>"; };
+		B675F8D61CB2363D00C30678 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B675F8D71CB2363D00C30678 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B675F8971CB235FC00C30678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B675F8B01CB235FD00C30678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B675F8BB1CB235FD00C30678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B675F8911CB235FC00C30678 = {
+			isa = PBXGroup;
+			children = (
+				B675F89C1CB235FC00C30678 /* APEGroupTableVIewCell */,
+				B675F8B61CB235FD00C30678 /* APEGroupTableVIewCellTests */,
+				B675F8C11CB235FD00C30678 /* APEGroupTableVIewCellUITests */,
+				B675F89B1CB235FC00C30678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B675F89B1CB235FC00C30678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B675F89A1CB235FC00C30678 /* APEGroupTableVIewCell.app */,
+				B675F8B31CB235FD00C30678 /* APEGroupTableVIewCellTests.xctest */,
+				B675F8BE1CB235FD00C30678 /* APEGroupTableVIewCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B675F89C1CB235FC00C30678 /* APEGroupTableVIewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B675F8A01CB235FC00C30678 /* AppDelegate.h */,
+				B675F8A11CB235FC00C30678 /* AppDelegate.m */,
+				B675F8D61CB2363D00C30678 /* RootViewController.h */,
+				B675F8D71CB2363D00C30678 /* RootViewController.m */,
+				B675F8D21CB2363400C30678 /* APEGroupTableViewCell.h */,
+				B675F8D31CB2363400C30678 /* APEGroupTableViewCell.m */,
+				B675F8A91CB235FC00C30678 /* Assets.xcassets */,
+				B675F8AB1CB235FC00C30678 /* LaunchScreen.storyboard */,
+				B675F8AE1CB235FC00C30678 /* Info.plist */,
+				B675F89D1CB235FC00C30678 /* Supporting Files */,
+			);
+			path = APEGroupTableVIewCell;
+			sourceTree = "<group>";
+		};
+		B675F89D1CB235FC00C30678 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B675F89E1CB235FC00C30678 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B675F8B61CB235FD00C30678 /* APEGroupTableVIewCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				B675F8B71CB235FD00C30678 /* APEGroupTableVIewCellTests.m */,
+				B675F8B91CB235FD00C30678 /* Info.plist */,
+			);
+			path = APEGroupTableVIewCellTests;
+			sourceTree = "<group>";
+		};
+		B675F8C11CB235FD00C30678 /* APEGroupTableVIewCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B675F8C21CB235FD00C30678 /* APEGroupTableVIewCellUITests.m */,
+				B675F8C41CB235FD00C30678 /* Info.plist */,
+			);
+			path = APEGroupTableVIewCellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B675F8991CB235FC00C30678 /* APEGroupTableVIewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B675F8C71CB235FD00C30678 /* Build configuration list for PBXNativeTarget "APEGroupTableVIewCell" */;
+			buildPhases = (
+				B675F8961CB235FC00C30678 /* Sources */,
+				B675F8971CB235FC00C30678 /* Frameworks */,
+				B675F8981CB235FC00C30678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APEGroupTableVIewCell;
+			productName = APEGroupTableVIewCell;
+			productReference = B675F89A1CB235FC00C30678 /* APEGroupTableVIewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B675F8B21CB235FD00C30678 /* APEGroupTableVIewCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B675F8CA1CB235FD00C30678 /* Build configuration list for PBXNativeTarget "APEGroupTableVIewCellTests" */;
+			buildPhases = (
+				B675F8AF1CB235FD00C30678 /* Sources */,
+				B675F8B01CB235FD00C30678 /* Frameworks */,
+				B675F8B11CB235FD00C30678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B675F8B51CB235FD00C30678 /* PBXTargetDependency */,
+			);
+			name = APEGroupTableVIewCellTests;
+			productName = APEGroupTableVIewCellTests;
+			productReference = B675F8B31CB235FD00C30678 /* APEGroupTableVIewCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B675F8BD1CB235FD00C30678 /* APEGroupTableVIewCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B675F8CD1CB235FD00C30678 /* Build configuration list for PBXNativeTarget "APEGroupTableVIewCellUITests" */;
+			buildPhases = (
+				B675F8BA1CB235FD00C30678 /* Sources */,
+				B675F8BB1CB235FD00C30678 /* Frameworks */,
+				B675F8BC1CB235FD00C30678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B675F8C01CB235FD00C30678 /* PBXTargetDependency */,
+			);
+			name = APEGroupTableVIewCellUITests;
+			productName = APEGroupTableVIewCellUITests;
+			productReference = B675F8BE1CB235FD00C30678 /* APEGroupTableVIewCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B675F8921CB235FC00C30678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Zachary;
+				TargetAttributes = {
+					B675F8991CB235FC00C30678 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RNY45ZR833;
+					};
+					B675F8B21CB235FD00C30678 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B675F8991CB235FC00C30678;
+					};
+					B675F8BD1CB235FD00C30678 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B675F8991CB235FC00C30678;
+					};
+				};
+			};
+			buildConfigurationList = B675F8951CB235FC00C30678 /* Build configuration list for PBXProject "APEGroupTableVIewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B675F8911CB235FC00C30678;
+			productRefGroup = B675F89B1CB235FC00C30678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B675F8991CB235FC00C30678 /* APEGroupTableVIewCell */,
+				B675F8B21CB235FD00C30678 /* APEGroupTableVIewCellTests */,
+				B675F8BD1CB235FD00C30678 /* APEGroupTableVIewCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B675F8981CB235FC00C30678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B675F8AD1CB235FC00C30678 /* LaunchScreen.storyboard in Resources */,
+				B675F8AA1CB235FC00C30678 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B675F8B11CB235FD00C30678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B675F8BC1CB235FD00C30678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B675F8961CB235FC00C30678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B675F8D81CB2363D00C30678 /* RootViewController.m in Sources */,
+				B675F8A21CB235FC00C30678 /* AppDelegate.m in Sources */,
+				B675F8D51CB2363400C30678 /* APEGroupTableViewCell.m in Sources */,
+				B675F89F1CB235FC00C30678 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B675F8AF1CB235FD00C30678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B675F8B81CB235FD00C30678 /* APEGroupTableVIewCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B675F8BA1CB235FD00C30678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B675F8C31CB235FD00C30678 /* APEGroupTableVIewCellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B675F8B51CB235FD00C30678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B675F8991CB235FC00C30678 /* APEGroupTableVIewCell */;
+			targetProxy = B675F8B41CB235FD00C30678 /* PBXContainerItemProxy */;
+		};
+		B675F8C01CB235FD00C30678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B675F8991CB235FC00C30678 /* APEGroupTableVIewCell */;
+			targetProxy = B675F8BF1CB235FD00C30678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B675F8AB1CB235FC00C30678 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B675F8AC1CB235FC00C30678 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B675F8C51CB235FD00C30678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B675F8C61CB235FD00C30678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B675F8C81CB235FD00C30678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = APEGroupTableVIewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dd.APEGroupTableVIewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B675F8C91CB235FD00C30678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = APEGroupTableVIewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dd.APEGroupTableVIewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B675F8CB1CB235FD00C30678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = APEGroupTableVIewCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dd.APEGroupTableVIewCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APEGroupTableVIewCell.app/APEGroupTableVIewCell";
+			};
+			name = Debug;
+		};
+		B675F8CC1CB235FD00C30678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = APEGroupTableVIewCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dd.APEGroupTableVIewCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APEGroupTableVIewCell.app/APEGroupTableVIewCell";
+			};
+			name = Release;
+		};
+		B675F8CE1CB235FD00C30678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = APEGroupTableVIewCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dd.APEGroupTableVIewCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = APEGroupTableVIewCell;
+			};
+			name = Debug;
+		};
+		B675F8CF1CB235FD00C30678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = APEGroupTableVIewCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dd.APEGroupTableVIewCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = APEGroupTableVIewCell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B675F8951CB235FC00C30678 /* Build configuration list for PBXProject "APEGroupTableVIewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B675F8C51CB235FD00C30678 /* Debug */,
+				B675F8C61CB235FD00C30678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B675F8C71CB235FD00C30678 /* Build configuration list for PBXNativeTarget "APEGroupTableVIewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B675F8C81CB235FD00C30678 /* Debug */,
+				B675F8C91CB235FD00C30678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B675F8CA1CB235FD00C30678 /* Build configuration list for PBXNativeTarget "APEGroupTableVIewCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B675F8CB1CB235FD00C30678 /* Debug */,
+				B675F8CC1CB235FD00C30678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B675F8CD1CB235FD00C30678 /* Build configuration list for PBXNativeTarget "APEGroupTableVIewCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B675F8CE1CB235FD00C30678 /* Debug */,
+				B675F8CF1CB235FD00C30678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B675F8921CB235FC00C30678 /* Project object */;
+}
