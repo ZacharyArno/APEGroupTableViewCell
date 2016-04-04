@@ -4,7 +4,7 @@ This is TableViewCell of Group Style
 
 ###Install
 
-Or, add it to your `Podfile`:
+add it to your `Podfile`:
 
 	pod 'APEGroupTableViewCell'
 
